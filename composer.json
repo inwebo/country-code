@@ -1,0 +1,23 @@
+{
+  "name":        "inwebo/country-code",
+  "description": "PHP7.2 country code model.",
+  "type":        "library",
+  "license":     "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "inwebo"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": { "Inwebo\\Geo\\Model": "" }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:inwebo/country-code.git"
+    }
+  ]
+}
