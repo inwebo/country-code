@@ -10,74 +10,46 @@ namespace Inwebo\Geo\Model;
  */
 class Country
 {
-    /** @var string */
-    private $num;
-    /** @var string */
-    private $alpha2;
-    /** @var string */
-    private $alpha3;
-    /** @var bool */
-    private $independent;
+    private string $num;
+    private string $alpha2;
+    private string $alpha3;
+    private bool   $independent;
 
-    /**
-     * @return string
-     */
     public function getNum(): string
     {
         return $this->num;
     }
 
-    /**
-     * @param string $num
-     */
     protected function setNum(string $num): void
     {
         $this->num = $num;
     }
 
-    /**
-     * @return string
-     */
     public function getAlpha2(): string
     {
         return $this->alpha2;
     }
 
-    /**
-     * @param string $alpha2
-     */
     protected function setAlpha2(string $alpha2): void
     {
         $this->alpha2 = $alpha2;
     }
 
-    /**
-     * @return string
-     */
     public function getAlpha3(): string
     {
         return $this->alpha3;
     }
 
-    /**
-     * @param string $alpha3
-     */
     protected function setAlpha3(string $alpha3): void
     {
         $this->alpha3 = $alpha3;
     }
 
-    /**
-     * @return bool
-     */
     public function isIndependent(): bool
     {
         return $this->independent;
     }
 
-    /**
-     * @param bool $independent
-     */
     protected function setIndependent(bool $independent): void
     {
         $this->independent = $independent;

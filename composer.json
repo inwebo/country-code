@@ -1,6 +1,6 @@
 {
   "name":        "inwebo/country-code",
-  "description": "PHP7.2 country code model.",
+  "description": "PHP7.4 country code model.",
   "type":        "library",
   "license":     "GPL-3.0-or-later",
   "authors": [
@@ -9,10 +9,10 @@
     }
   ],
   "require": {
-    "php": ">=7.2"
+    "php": ">=7.4"
   },
   "autoload": {
-    "psr-4": { "Inwebo\\Geo\\Model": "" }
+    "psr-4": { "Inwebo\\Geo\\": "" }
   },
   "repositories": [
     {

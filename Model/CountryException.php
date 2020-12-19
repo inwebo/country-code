@@ -3,8 +3,9 @@
 namespace Inwebo\Geo\Model;
 
 use Throwable;
+use \Exception;
 
-class CountryException extends \Exception
+class CountryException extends Exception
 {
     const PCRE_PATTERN_NUM     = '/^[0-9]{3}$/';
     const PCRE_PATTERN_ALPHA_2 = '/^[A-Z]{2}$/';
@@ -54,8 +55,6 @@ class CountryException extends \Exception
             $msgNum = sprintf('$alpha 2 argument must be a 3 digits string and validate this PCRE pattern \'%s\'. Your input %s', CountryException::PCRE_PATTERN_ALPHA_3, $alpha3);
         }
 
-        $message = sprintf('%s %s %s', $msgNum, $msgAlpha2, $msgAlpha3);
-
-        return $message;
+        return sprintf('%s %s %s', $msgNum, $msgAlpha2, $msgAlpha3);
     }
 }
