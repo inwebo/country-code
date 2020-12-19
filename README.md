@@ -6,7 +6,7 @@
 
 ### Composer
 ```bash
-composer composer require inwebo/country-code
+composer require inwebo/country-code
 ```
 
 ### Git
