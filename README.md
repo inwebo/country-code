@@ -11,7 +11,7 @@ composer require inwebo/country-code
 
 ### Git
 ```bash
-git clone git@github.com:inwebo/3166-1.git
+git clone https://github.com/inwebo/country-code.git
 ```
 
 ## Dataset
